@@ -15,7 +15,6 @@ function draw() {
   fill(240, 30, 10, 10); 
   rect(0, 0, width * 2, height * 2);
 
-  // Update hue value
   hueValue = (hueValue + 1) % 360;
 
   push();
